@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/Pet5.png">
+    <link rel="stylesheet" href="/assets/icon/fontawesome-pro-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&family=Nunito:wght@200&display=swap">   
+    <title>Cat Music</title>
+</head>
+<body>
+    <div class="container">
+    <div class="music-app">
+
+        <!-- Dashboard-music -->
+        <div class="dashboard-music">
+            <div class="opacity"></div>
+            <div class="background-CD"></div>
+            <div class="background-black"></div>
+            <div class="header">
+                <p>Now playing:</p>
+                <p class="header__name-music"></p>
+            </div>
+            <div class="cd">
+                <img src=" " alt="">
+            </div>
+
+            <!-- Time-line -->
+                <input type="range" min="0" max="100" value="0" class="time-line">
+            <!-- Control -->
+            <div class="control">
+                <i class="fal fa-sync loop-btn"></i>
+                <i class="fas fa-step-backward previous-btn"></i>
+                <div class="btn-play-pause">
+                    <i class="fas fa-play play-icon"></i>
+                    <i class="fas fa-pause pause-icon"></i>
+                    <audio id="audio" src=" "></audio>
+                </div>
+                <i class="fas fa-step-forward next-btn"></i>
+                <i class="fal fa-random random-btn"></i>           
+            </div>
+            
+        </div>
+
+        <!-- List Music -->
+        <div class="list-music">
+            <div class="list-music__header">
+                    <p>List Music <i class="fas fa-music-alt"></i></p>
+                    <i class="fal fa-bars"></i>   
+            </div>
+            <div class="container-music">      
+                
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
